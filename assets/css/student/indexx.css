@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: #428A33;
+    color: white;
+    font-weight: bold;
+}
+
+#signout{
+    color: white;
+    font-size: 20px;
+}
+
+nav .logo img{
+    width:60px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+nav .logo h3{
+    position: absolute;
+    left: 180px;
+    top: 38px;
+    font-weight: 500;
+}
+
+nav .logout a{
+    position: absolute;
+    right: 120px;
+    top: 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* nav .logout h3{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    font-weight: 500;
+} */
+
+.icon{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-size: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid green;
+    width: 86%;
+}
+
+
+.icon .messages, .icon .books, .icon .borrowed, .icon .previously{
+    width: 200px;
+    height: 130px;
+    margin: 100px 0px 30px 130px;
+}
+
+.menu-icon{
+    /* color: #428A33; */
+    font-size: 60px;
+}
+
+.icon-inbox{
+    color: #e62e84;
+}
+
+.icon-book{
+    color: #5ec47b;
+}
+
+.icon-tasks{
+    color: #5caed4;
+}
+
+.icon-list{
+    color: #673185;
+}
+
+.icon .messages h5, .icon .books h5, .icon .borrowed h5, .icon .previously h5{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+}
+
+.icon .messages h5{
+    left: 120px;
+}
+
+.icon .books h5{
+    left: 460px;
+}
+
+.icon .borrowed h5{
+    left: 770px;
+}
+
+.icon .previously h5{
+    right: 120px;
+}
+
+.icon .messages .total{
+    background-color: #e62e2d;
+    position: relative;
+    left: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.icon .books .no-total, .icon .borrowed .no-total, .icon .previously .no-total{
+    background-color: #ffff;
+    position: relative;
+    left: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.icon .messages .total p{
+    text-align: center;
+    position: relative;
+    top: 6px;
+    color: #ffff;
+}
+
+footer{
+    background-color:  #428A33;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}

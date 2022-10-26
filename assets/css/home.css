@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/***** HOME *****/
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+#home nav.links {
+    text-align: center;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+#home nav.links ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+#home nav.links ul li a:hover{
+    color:#428A33;
+    /* border: 1px solid #428A33;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 14px; */
+}
+
+#home nav.form{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+}
+
+#home nav.form a {
+    background-color:#428A33;   
+    margin: 10px;
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#home nav.form ul li{
+    list-style: none;
+}
+
+#home .logo{
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    width: 700px;
+}
+
+#home .logo img{
+    width: 160px;
+    height: 160px;
+}
+
+#home .logo h1{
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    color: #428A33;
+    font-size: 60px;
+}
+
+#home .logo h2{
+    position: absolute;
+    left: 190px;
+    top: 90px;
+    font-size: 22px;
+}
+
+#home .library-image img{
+    width: 570px;
+    height: 570px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+}
+
+#home .mini-analytics{
+    background-color: #428A33;
+    color: #ffff;
+    height: 250px;
+    width: 75%; 
+    position: absolute;
+    bottom: 0;
+}
+
+/* #home .mini-analytics {
+    height: 100vh;
+    margin: 0;
+    background: yellow;
+  } */
+  
+#home .mini-analytics:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 340px;
+    background: #428A33;
+    transform: skew(53.4deg);
+    transform-origin:top;
+}
+
+#home .books, .borrowed, .returned{
+    display: inline-block;
+    margin-right: 120px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.books h3, .borrowed h3, .returned h3{
+    font-size: 65px;
+}
+.books p, .borrowed p, .returned p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fa-solid{
+    border: 1px solid white;
+    padding: 2px 8px;
+}
+
+/***** ABOUT US *****/
+/* #about{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(66, 138, 51, 0.5), rgba(66, 138, 51, 0.5)), url("assets/img/Saint-Jude.png");
+} */
+#about .front img{
+   height: 90vh;
+   width: 100%;
+}
+
+#about .back{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(66, 138, 51, 0.5), rgba(66, 138, 51, 0.5));
+    width: 100%;
+    height: 91vh;
+    position: absolute;
+    top: 657px;
+}
+
+#about .title{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+}
+
+#about .title h1{
+    margin-left: 600px;
+    margin-top: 60px;
+}
+
+#about .title h2{
+    margin-top: 100px;
+    margin-left: 410px;
+    width: 550px;
+    text-align: center;
+}
+
+#about .back{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: #428A33;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
